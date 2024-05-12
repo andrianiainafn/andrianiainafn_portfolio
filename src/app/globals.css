@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.2;
+    will-change: transform;
+}
+body {
+    overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box.active {
+    border: solid 2px red;
+}
+
+.line {
+    visibility: hidden;
+    width: 2px;
+    height: 4000px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    background-color: #777;
+}
+.above{
+    z-index: 999 !important;
+}
