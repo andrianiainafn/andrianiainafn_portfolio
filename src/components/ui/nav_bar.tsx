@@ -6,9 +6,6 @@ import { FaRegUser } from "react-icons/fa";
 import { FiMessageSquare } from "react-icons/fi"
 import { IoExtensionPuzzleOutline } from "react-icons/io5";
 import { FaTasks } from "react-icons/fa";
-import gsap from 'gsap-trial';
-import { ScrollTrigger } from 'gsap-trial/ScrollTrigger';
-import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';
 import {PageContent} from "@/components/header/page_content";
 
 export function FloatingNavDemo() {
