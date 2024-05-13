@@ -27,7 +27,7 @@ const About = () => {
         }
     );
     return (
-        <div id="about" ref={container} className="w-full px-[5%] flex flex-col space-y-4 relative h-screen text-white  bg-black">
+        <div id="about" ref={container} className="w-full px-[5%] flex flex-col space-y-4 relative text-white  bg-black">
             <SectionTitle label="About"/>
             <div className="flex relative justify-between w-full">
                 <div className="flex w flex-col space-y-3 w-[50%]">

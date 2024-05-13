@@ -9,7 +9,7 @@ import Footer from "@/components/footer/footer";
 
 export const PageContent = () => {
     return (
-        <div className="bg-black w-full" >
+        <div className="bg-black w-full space-y-20" >
             <Header/>
             <About/>
             <Skills/>
