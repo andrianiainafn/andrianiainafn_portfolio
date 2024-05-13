@@ -3,6 +3,7 @@ import {useGSAP} from "@gsap/react";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
 import gsap from 'gsap';
 import { FaArrowRightLong } from "react-icons/fa6";
+import SectionTitle from "@/components/ui/section_title";
 // import gsap from 'gsap-trial';
 // import { ScrollTrigger } from 'gsap-trial/ScrollTrigger';
 // import { ScrollSmoother } from 'gsap-trial/ScrollSmoother';;
@@ -27,9 +28,7 @@ const About = () => {
     );
     return (
         <div id="about" ref={container} className="container p-[40px] flex flex-col space-y-4 relative h-screen text-white  bg-black">
-            <h3  className=" text-[#304336d9] text-2xl">
-                About
-            </h3>
+            <SectionTitle label="About"/>
             <div className="flex justify-between w-[100%]">
                 <div className="flex flex-col space-y-3 w-[50%]">
                     <h4 className="text-4xl">

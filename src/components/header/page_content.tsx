@@ -2,6 +2,10 @@ import Header from "@/components/header/header";
 import React from "react";
 import Incentive from "@/components/ui/incentive";
 import About from "@/components/about/about";
+import Project from "@/components/project/project";
+import Skills from "@/components/skills/skills";
+import Contact from "@/components/contact/contact";
+import Footer from "@/components/footer/footer";
 
 export const PageContent = () => {
     return (
@@ -9,6 +13,10 @@ export const PageContent = () => {
             <Header/>
             <About/>
             <Incentive/>
+            <Skills/>
+            <Project/>
+            <Contact/>
+            <Footer/>
             <div className="grid grid-cols-1 h-[40rem] w-full bg-white dark:bg-black relative border border-neutral-200 dark:border-white/[0.2] rounded-md">
                 <p className="dark:text-white text-neutral-600 text-center text-4xl mt-40 font-bold">
                     Portfolio
