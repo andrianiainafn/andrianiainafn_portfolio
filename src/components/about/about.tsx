@@ -27,11 +27,11 @@ const About = () => {
         }
     );
     return (
-        <div id="about" ref={container} className="container p-[40px] flex flex-col space-y-4 relative h-screen text-white  bg-black">
+        <div id="about" ref={container} className="container w-full z-40 p-[40px] flex flex-col space-y-4 relative h-screen text-white  bg-black">
             <SectionTitle label="About"/>
-            <div className="flex justify-between w-[100%]">
+            <div className="flex justify-between w-full">
                 <div className="flex flex-col space-y-3 w-[50%]">
-                    <h4 className="text-4xl">
+                    <h4 className="text-2xl  md:text-5xl lg:text-7xl">
                         I am able to deliver results that exceed your expectations
                     </h4>
                     <div>
@@ -44,7 +44,7 @@ const About = () => {
                     <div className="box box-a absolute top-[300px] right-[50px] text-blue-500 gradient-blue" data-speed="1.5">
                         Innovative
                     </div>
-                    <div className="box-c flex items-center space-x-1 ransform text-blue-500 py-10  rotate-90 " data-speed="2.5">
+                    <div className="box-c z-10 flex items-center space-x-1 ransform text-blue-500 py-10  rotate-90 " data-speed="2.5">
                         <span>Scroll</span>
                         <FaArrowRightLong/>
                     </div>
@@ -53,7 +53,7 @@ const About = () => {
                     <div className="box box-b transform text-blue-500 py-10  -rotate-45 " data-speed="0.8  ">
                         problem-solver
                     </div>
-                    <p >
+                    <p className="text-justify" >
                         Hello! I&apos;m Nomena Andrianiaina, currently a student at the National School of Computer Science.
                         Passionate about the world of technology, I take great pleasure in solving problems with easy-to-use mobile or web applications.
                         I love collaborating with other developers to design and develop innovative solutions.

@@ -12,9 +12,9 @@ const Header = () => {
     return (
         <>
             <BackgroundGradientAnimation>
-                <div className="absolute z-50 inset-0 flex items-center px-40 justify-center text-white font-bold  pointer-events-none ">
+                <div className="absolute z-50 inset-0 flex items-center m-auto justify-around text-white font-bold  pointer-events-none ">
                     <Image className="" src="/afn.png" alt="imag of me" width={500} height={100}/>
-                    <div className="text-start flex flex-col space-y-6">
+                    <div className="text-start flex w-[40%] flex-col space-y-6">
                         <h2 className="text-blue-500  text-2xl">
                             👋 Hello there, I&apos;m Nomena Andrianiaina
                         </h2>
