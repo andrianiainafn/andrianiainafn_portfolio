@@ -27,12 +27,14 @@ const About = () => {
         }
     );
     return (
-        <div id="about" ref={container} className="w-full p-[40px] flex flex-col space-y-4 relative h-screen text-white  bg-black">
+        <div id="about" ref={container} className="w-full px-[5%] flex flex-col space-y-4 relative h-screen text-white  bg-black">
             <SectionTitle label="About"/>
             <div className="flex relative justify-between w-full">
                 <div className="flex w flex-col space-y-3 w-[50%]">
                     <h4 className="text-2xl above  md:text-4xl lg:text-5xl">
                         I am able to deliver results that exceed your expectations
+                    {/*    <span className="relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-blue-500 to-[#304336d9] dark:from-blue-500 dark:to-[#304336d9]">    */}
+                    {/*</span>*/}
                     </h4>
                     <div>
                         <button  className="flex above cursor-pointer items-center  space-x-2  border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-white dark:text-white px-4 py-2 rounded-full">
