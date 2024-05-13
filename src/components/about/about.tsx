@@ -27,10 +27,10 @@ const About = () => {
         }
     );
     return (
-        <div id="about" ref={container} className="container w-full p-[40px] flex flex-col space-y-4 relative h-screen text-white  bg-black">
+        <div id="about" ref={container} className="w-full p-[40px] flex flex-col space-y-4 relative h-screen text-white  bg-black">
             <SectionTitle label="About"/>
-            <div className="flex justify-between w-full">
-                <div className="flex flex-col space-y-3 w-[50%]">
+            <div className="flex relative justify-between w-full">
+                <div className="flex w flex-col space-y-3 w-[50%]">
                     <h4 className="text-2xl above  md:text-4xl lg:text-5xl">
                         I am able to deliver results that exceed your expectations
                     </h4>
@@ -41,17 +41,17 @@ const About = () => {
                             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
                         </button>
                     </div>
-                    <div className="box box-a absolute opacity-60 top-[300px] right-[50px] text-blue-500 transform rotate-45 gradient-blue" data-speed="1.5">
-                        Innovative
-                    </div>
-                    <div className="box-c opacity-60 flex items-center space-x-1 ransform text-blue-500   rotate-90 " data-speed="2.5">
+                    <div className="box-c opacity-60 absolute top-5 flex items-center space-x-1 transform text-blue-500   rotate-90 " data-speed="2.5">
                         <span>Scroll</span>
                         <FaArrowRightLong/>
                     </div>
                 </div>
-                <div className="w-[40%] flex flex-col space-y-3">
-                    <div className="box box-b opacity-60 transform text-blue-500 py-10  -rotate-45 " data-speed="0.8  ">
+                <div className="w-[40%] relative flex flex-col space-y-3">
+                    <div className="box box-b absolute top-[25%] left-[50%] opacity-60 transform text-blue-500 py-10  -rotate-45 " data-speed="0.8  ">
                         problem-solver
+                    </div>
+                    <div className="box box-a absolute opacity-60 bottom-[10%] right-[10%] animate-second text-blue-500 transform rotate-45 gradient-blue" data-speed="1.5">
+                        Innovative
                     </div>
                     <p className="text-justify above" >
                         Hello! I&apos;m Nomena Andrianiaina, currently a student at the National School of Computer Science.
