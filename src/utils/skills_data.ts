@@ -21,6 +21,10 @@ export const skills:ISkills[] = [
                 label:"ReactJs",
                 image:"icons8-react.png"
             },
+            {
+                label:"Tailwind ",
+                image:"icons8-tailwind.png"
+            },
         ]
     },
     {

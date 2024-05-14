@@ -8,9 +8,18 @@ export const projects:IProject[] = [
         image:"webcup24.png",
         tech:[
             {
+                label:"Tailwind ",
+                image:"icons8-tailwind.png"
+            },
+            {
                 image:"icons8-nextJs.png",
                 label:"NextJs"
+            },
+            {
+                image:"icons8-three.js.png",
+                label:"ThreeJs"
             }
+
         ],
         githubLink:"https://github.com/elita-webcup/elita-webcup",
         demoLink:"https://elita.madagascar.webcup.hodi.host/"
@@ -20,6 +29,10 @@ export const projects:IProject[] = [
         description: "Our Student Q&A Platform facilitates seamless communication and collaboration among students. Users can pose inquiries on a wide range of academic subjects and contribute insightful responses to peers' queries. With features like upvoting and downvoting, users actively shape the platform's content. Additionally, they can follow specific topics or users to stay informed and engaged." ,
         image:"miray.png",
         tech:[
+            {
+                label:"Tailwind ",
+                image:"icons8-tailwind.png"
+            },
             {
                 image:"icons8-nextJs.png",
                 label:"NextJs"
