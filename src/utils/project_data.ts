@@ -12,7 +12,7 @@ export const projects:IProject[] = [
                 image:"icons8-tailwind.png"
             },
             {
-                image:"icons8-nextJs.png",
+                image:"icons8-nextjs.png",
                 label:"NextJs"
             },
             {
@@ -34,7 +34,7 @@ export const projects:IProject[] = [
                 image:"icons8-tailwind.png"
             },
             {
-                image:"icons8-nextJs.png",
+                image:"icons8-nextjs.png",
                 label:"NextJs"
             },{
                 image: "next-auth.png",
