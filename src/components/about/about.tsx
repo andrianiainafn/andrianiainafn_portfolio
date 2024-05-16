@@ -43,7 +43,7 @@ const About = () => {
                             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
                         </button>
                     </div>
-                    <div className="box-c opacity-60 absolute top-5 flex items-center space-x-1 transform text-blue-500   rotate-90 " data-speed="2.5">
+                    <div className="box-c opacity-60 absolute top-5 flex items-center space-x-1 transform text-blue-500   rotate-90 " data-speed="0.5">
                         <span>Scroll</span>
                         <FaArrowRightLong/>
                     </div>
