@@ -6,7 +6,7 @@ import ContactCard from "@/components/contact/contact_card";
 
 const Contact = () => {
     return (
-        <div className="h-screen px-[5%] space-y-5" id="contact">
+        <div className=" px-[5%] space-y-5" id="contact">
             <SectionTitle label="Contact"/>
             <div className="flex justify-between">
                 <div className="text-white flex flex-col space-y-3 w-[45%]">
