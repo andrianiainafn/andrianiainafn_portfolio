@@ -4,8 +4,11 @@ import ProjectCardContainer from "@/components/project/project_card_container";
 
 const Project = () => {
     return (
-        <div className="px-[5%] space-y-20" id="project">
+        <div className="px-[5%] space-y-5" id="project">
             <SectionTitle label="Project"/>
+            <h2 className="text-white text-4xl pb-20">
+                Explore my work, discover my projects, and get inspired.
+            </h2>
             <ProjectCardContainer/>
         </div>
     );

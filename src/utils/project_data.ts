@@ -4,7 +4,7 @@ export const projects:IProject[] = [
     {
         type:"Personal project",
         title:"GMI",
-        description:"\".00\" or \"Dot double zero\" is a website that offers an agent the possibilities to receive a mission assignment; to receive the necessary documents; to remotely command the activation of their gadgets and transportation tools. Each agent in a mission can be remotely assisted by their teammates using GPS location and also a distress signal on the map in case of alert.",
+        description:"GMI is an application for managing computer equipment, intended for businesses and organizations. GMI allows real-time monitoring of the status of equipment within the organization or company and assigning personnel to one or more pieces of equipment. It allows company personnel to request new equipment or declare that equipment requires maintenance. It also allows for managing the role of each individual within the company",
         image:"gm-i.png",
         tech:[
             {
@@ -76,27 +76,6 @@ export const projects:IProject[] = [
         demoLink:"https://chaat-afn.netlify.app/"
     },
     {
-        type:"Hackathon project",
-        title:"Miray App",
-        description: "Our Student Q&A Platform facilitates seamless communication and collaboration among students. Users can pose inquiries on a wide range of academic subjects and contribute insightful responses to peers' queries. With features like upvoting and downvoting, users actively shape the platform's content. Additionally, they can follow specific topics or users to stay informed and engaged." ,
-        image:"miray.png",
-        tech:[
-            {
-                label:"Tailwind ",
-                image:"icons8-tailwind.png"
-            },
-            {
-                image:"icons8-nextjs.png",
-                label:"NextJs"
-            },{
-                image: "next-auth.png",
-                label: "NextAuth"
-            }
-
-        ],
-        githubLink:"https://github.com/Elita-6/devhunt-client-starter-project",
-        demoLink:"https://elita-devhunt.vercel.app/"
-    },{
         type:"Hackathon project",
         title:"Miray App",
         description: "Our Student Q&A Platform facilitates seamless communication and collaboration among students. Users can pose inquiries on a wide range of academic subjects and contribute insightful responses to peers' queries. With features like upvoting and downvoting, users actively shape the platform's content. Additionally, they can follow specific topics or users to stay informed and engaged." ,
