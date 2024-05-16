@@ -36,7 +36,7 @@ export function FloatingNavDemo() {
         },
         {
             name: "Contact",
-            link: "/contact",
+            link: "#contact",
             icon: (
                 <FiMessageSquare className="h-4 w-4 " />
             ),
