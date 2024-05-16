@@ -13,32 +13,32 @@ export function FloatingNavDemo() {
         {
             name: "Home",
             link: "#home",
-            icon: <IoHomeOutline className="h-4 w-4 text-neutral-500 dark:text-white hover:text-blue-500 dark:hover:text-blue-400" />,
+            icon: <IoHomeOutline className="h-4 w-4 " />,
         },
         {
             name: "About",
             link: "#about",
-            icon: <FaRegUser className="h-4 w-4 text-neutral-500 dark:text-white hover:text-blue-500 dark:hover:text-blue-400" />,
+            icon: <FaRegUser className="h-4 w-4 " />,
         },
         {
             name: "Project",
             link: "#contact",
             icon: (
-                <FaTasks className="h-4 w-4 text-neutral-500 dark:text-white hover:text-blue-500 dark:hover:text-blue-400" />
+                <FaTasks className="h-4 w-4  " />
             ),
         },
         {
             name: "Skills",
             link: "#skills",
             icon: (
-                <IoExtensionPuzzleOutline className="h-4 w-4 text-neutral-500 dark:text-white hover:text-blue-500 dark:hover:text-blue-400" />
+                <IoExtensionPuzzleOutline className="h-4 w-4 " />
             ),
         },
         {
             name: "Contact",
             link: "/contact",
             icon: (
-                <FiMessageSquare className="h-4 w-4 text-neutral-500 dark:text-white hover:text-blue-500 dark:hover:text-blue-400" />
+                <FiMessageSquare className="h-4 w-4 " />
             ),
         },
     ];
