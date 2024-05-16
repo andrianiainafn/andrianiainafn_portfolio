@@ -17,8 +17,8 @@ const ProjectTech = (props:Props) => {
             </h2>
             <Image
                 src={`/${elem.image}`}
-                height={40}
-                width={40}
+                height={30}
+                width={30}
                 className="   rounded-xl group-hover/card:shadow-xl"
                 alt={elem.label}
             />

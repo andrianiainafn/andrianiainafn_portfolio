@@ -20,11 +20,11 @@ const ProjectDescription = (props:Props) => {
             </h3>
             <div className={`absolute w-[50%] flex flex-col top-[20%] space-y-5  bg-opacity-25 ${even ? '' : 'items-end'}`}>
                 <div className="bg-[#304336d9] p-2">
-                    <p className="opacity-80 ">
+                    <p className="opacity-50 ">
                         {project.description}
                     </p>
                 </div>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-4 flex-wrap">
                     {
                         project.tech.map((elem,key)=>(
                             <ProjectTech elem={elem} key={key}/>
