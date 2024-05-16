@@ -3,7 +3,7 @@ import { IoSendOutline } from "react-icons/io5";
 
 const ContactForm = () => {
     return (
-        <form className="w-[50%] text-white flex flex-col items-center space-y-6">
+        <form className="w-[50%] text-white flex flex-col items-end space-y-6">
             <div className="flex flex-col space-y-2 w-[80%]">
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name" placeholder="John Doe" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
