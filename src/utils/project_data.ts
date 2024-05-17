@@ -96,5 +96,24 @@ export const projects:IProject[] = [
         ],
         githubLink:"https://github.com/Elita-6/devhunt-client-starter-project",
         demoLink:"https://elita-devhunt.vercel.app/"
+    },
+    {
+        type:"Team project",
+        title:"Elita team website",
+        description: "CodigoElita: Transforming ideas into digital solutions. We're your digital startup partner, turning concepts into powerful digital assets that serve your clients' needs. From ideation to execution, CodigoElita is your gateway to a digital future " ,
+        image:"elita-website.png",
+        tech:[
+            {
+                label:"Tailwind ",
+                image:"icons8-tailwind.png"
+            },
+            {
+                image:"icons8-nextjs.png",
+                label:"NextJs"
+            }
+
+        ],
+        githubLink:"https://github.com/andrianiainafn/CodigoElita_website",
+        demoLink:"https://codigoelita.vercel.app/#services"
     }
 ]
