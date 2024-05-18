@@ -14,10 +14,9 @@ const Cursor = () => {
         }
         const onMouseEnterLink = (event:any)=>{
             const link = event.target
-            console.log(link)
+            cursorLabel.style.display = 'block'
             if (link?.classList.contains('view')){
                 gsap.to(cursor,{scale:4})
-                console.log(cursorLabel)
                 cursorLabel.style.display = 'block'
             }else{
                 gsap.to(cursor,{scale:4})
@@ -35,7 +34,7 @@ const Cursor = () => {
     }, []);
     return (
         <div id="custom-cursor" className="custom-cursor">
-            <div className="cursor-label  dark:text-black text-black">View</div>
+            <div className="cursor-label text-center  text-black">View Project</div>
         </div>
     );
 };

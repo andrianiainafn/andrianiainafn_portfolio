@@ -15,3 +15,31 @@ body {
 .above{
     z-index: 999 !important;
 }
+#project:hover{
+    .custom-cursor{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        border-radius:  50%;
+        pointer-events: none;
+        z-index: 9999;
+        mix-blend-mode: difference;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    & a {
+        cursor: pointer;
+    }
+    .cursor-label{
+        padding-top:  4px;
+        font-size: 2px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        /*display: none;*/
+    }
+}

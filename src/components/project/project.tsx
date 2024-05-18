@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from "@/components/ui/section_title";
 import ProjectCardContainer from "@/components/project/project_card_container";
+import Cursor from "@/components/ui/cursor";
 
 const Project = () => {
     return (
@@ -10,6 +11,7 @@ const Project = () => {
                 Explore my work, discover my projects, and get inspired.
             </h2>
             <ProjectCardContainer/>
+            <Cursor/>
         </div>
     );
 };
