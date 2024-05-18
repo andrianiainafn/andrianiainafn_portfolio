@@ -52,6 +52,15 @@ export const skills:ISkills[] = [
                 image:"icons8-spring-boot.png"
             },
         ]
+    },
+    {
+      title:"Problem solving",
+      tech:[
+          {
+              label:"Python",
+              image:"icons8-python.png"
+          }
+      ]
     }
     ,
     {
