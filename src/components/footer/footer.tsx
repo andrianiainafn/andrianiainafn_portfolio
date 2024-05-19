@@ -12,7 +12,7 @@ import { MdOutlineEmail ,MdOutlineLocalPhone,MdOutlineLocationOn} from "react-ic
 
 const Footer = () => {
     return (
-        <div className="text-white relative w-full   bg-[#304336d9]  flex justify-between items-start px-[5%] py-[2%]  ">
+        <div className="text-white relative w-full   bg-[#304336d9]  flex flex-col md:justify-between items-start px-[5%] py-[2%]  ">
             <div  className="space-y-3">
                 <h3 className="font-bold text-xl">Find me in</h3>
                 <div className="flex space-x-2  items-center">
