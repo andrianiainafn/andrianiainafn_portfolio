@@ -8,9 +8,9 @@ const Contact = () => {
     return (
         <div className=" px-[5%] space-y-5" id="contact">
             <SectionTitle label="Contact"/>
-            <div className="flex justify-between">
-                <div className="text-white flex flex-col space-y-3 w-[45%]">
-                    <h2 className="text-4xl">
+            <div className="flex flex-col  mm:flex-row space-x-3 mm:space-y-0 mm:justify-between">
+                <div className="text-white flex flex-col space-y-3 w-full mm:w-[45%]">
+                    <h2 className="text-2xl vm:text-4xl">
                         Let&apos;s build an <Highlight className="text-nowrap">awesome project</Highlight>
                         &nbsp;together!
                     </h2>

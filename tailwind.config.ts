@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       screens:{
         mm: '817px',
-        ml:"1000px"
+        ml:"1000px",
+        vm:"530px"
       },
       animation: {
         first: "moveVertical 30s ease infinite",
