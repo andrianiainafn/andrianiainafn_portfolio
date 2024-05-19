@@ -29,8 +29,8 @@ const About = () => {
     return (
         <div id="about" ref={container} className="w-full px-[5%] flex flex-col space-y-4 relative text-white  bg-black">
             <SectionTitle label="About"/>
-            <div className="flex relative justify-between w-full">
-                <div className="flex w flex-col space-y-3 w-[50%]">
+            <div className="flex relative flex-col space-y-3 mm:space-y-0 mm:flex-row justify-between w-full">
+                <div className="flex w flex-col space-y-3 w-full mm:w-[50%]">
                     <h4 className="text-2xl above  md:text-4xl lg:text-5xl">
                         I am able to deliver results that exceed your expectations
                     {/*    <span className="relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-blue-500 to-[#304336d9] dark:from-blue-500 dark:to-[#304336d9]">    */}
@@ -48,7 +48,7 @@ const About = () => {
                         <FaArrowRightLong/>
                     </div>
                 </div>
-                <div className="w-[40%] relative flex flex-col space-y-3">
+                <div className="w-full mm:w-[40%] relative flex flex-col space-y-3">
                     <div className="box box-b absolute top-[25%] left-[50%] opacity-60 transform text-blue-500 py-10  -rotate-45 " data-speed="0.8  ">
                         problem-solver
                     </div>
