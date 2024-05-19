@@ -24,7 +24,7 @@ const SkillsCardContent = (props:Props) => {
             {/*>*/}
             {/*    Hover over this card to unleash the power of CSS perspective*/}
             {/*</CardItem>*/}
-            <div  className="grid grid-cols-3 gap-2" >
+            <div  className="grid grid-cols-2 vm:grid-cols-3 gap-2" >
                 {
                     elem.tech.map((elem:ITech,key:number)=>(
                         <CardItem translateZ="100" key={key} className=" flex items-center space-x-2 ">

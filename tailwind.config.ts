@@ -11,7 +11,8 @@ const config: Config = {
       screens:{
         mm: '817px',
         ml:"1000px",
-        vm:"530px"
+        vm:"530px",
+        tm:"1200px"
       },
       animation: {
         first: "moveVertical 30s ease infinite",
