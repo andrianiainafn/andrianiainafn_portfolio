@@ -34,7 +34,7 @@ const Incentive = () => {
     return (
         <div className="content-wrapper bg-black  hidden md:block">
             <div className="your-text-wrapper-class flex justify-center items-center   h-screen">
-                <h1 className="text-[6.4em] font-bold whitespace-nowrap text-white text-wrapper transform translate-x-[70%] ">
+                <h1 className="text-[6.2em] font-bold whitespace-nowrap text-white text-wrapper transform translate-x-[70%] ">
                     Spinning web wonders with a sprinkle of tech fairy dust!
                 </h1>
             </div>

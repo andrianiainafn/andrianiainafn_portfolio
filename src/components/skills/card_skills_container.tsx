@@ -11,7 +11,7 @@ import SkillsCardContent from "@/components/skills/skills_card_content";
 export function CardSkillsContainer() {
     return (
         <CardContainer >
-            <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[100%] mm:w-[80%]  h-auto rounded-xl p-6 border  ">
+            <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[100%] mm:w-[100%]  h-auto rounded-xl p-6 border  ">
                 {
                     skills.map((elem,key)=>(
                         <SkillsCardContent elem={elem} key={key}/>
