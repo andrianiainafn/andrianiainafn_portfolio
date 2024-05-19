@@ -5,7 +5,7 @@ import Cursor from "@/components/ui/cursor";
 
 const Project = () => {
     return (
-        <div className="px-[5%] relative  w-full space-y-5" id="project">
+        <div className="px-[5%] relative overflow-hidden  w-full space-y-5" id="project">
             <SectionTitle label="Project"/>
             <h2 className="text-white text-4xl pb-20">
                 Explore my work, discover my projects, and get inspired.
