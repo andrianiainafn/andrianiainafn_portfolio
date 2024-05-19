@@ -10,8 +10,8 @@ import SkillsCardContent from "@/components/skills/skills_card_content";
 
 export function CardSkillsContainer() {
     return (
-        <CardContainer className="w-80%">
-            <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[80%] sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+        <CardContainer >
+            <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[100%] mm:w-[80%]  h-auto rounded-xl p-6 border  ">
                 {
                     skills.map((elem,key)=>(
                         <SkillsCardContent elem={elem} key={key}/>
