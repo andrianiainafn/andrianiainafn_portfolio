@@ -45,7 +45,6 @@ export const FloatingNav = ({
             }
         }
     });
-
     return (
         <AnimatePresence mode="wait">
             <motion.div
@@ -77,7 +76,9 @@ export const FloatingNav = ({
                         <span className="hidden sm:block text-sm">{navItem.name}</span>
                     </Link>
                 ))}
-                <ActionButton label="Get my resume" icon={<GrDownload/>}/>
+                <Link download target="_blank" rel="noopener noreferrer" href="CV-Nomena-Andrianiaina.pdf" className="flex items-end">
+                    <ActionButton  label="Get my resume" icon={<GrDownload/>}/>
+                </Link>
             </motion.div>
         </AnimatePresence>
     );

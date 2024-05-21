@@ -22,7 +22,7 @@ export function FloatingNavDemo() {
         },
         {
             name: "Project",
-            link: "#contact",
+            link: "#project",
             icon: (
                 <FaTasks className="h-4 w-4  " />
             ),
