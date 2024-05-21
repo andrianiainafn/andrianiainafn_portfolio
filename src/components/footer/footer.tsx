@@ -4,6 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6"
 import { MdOutlineEmail ,MdOutlineLocalPhone,MdOutlineLocationOn} from "react-icons/md";
+import {footerLink} from "@/utils/footer_data";
+import Link from "next/link";
 // import { FaAppStoreIos } from "react-icons/fa";
 // import { FaAndroid } from "react-icons/fa6";
 // import { CiGlobe } from "react-icons/ci";
@@ -16,10 +18,13 @@ const Footer = () => {
             <div  className="space-y-3">
                 <h3 className="font-bold text-xl">Find me in</h3>
                 <div className="flex space-x-2  items-center">
-                    <FaFacebook className="opacity-75" size={25}/>
-                    <FaGithub className="opacity-75" size={25}/>
-                    <FaWhatsapp className="opacity-75" size={25}/>
-                    <FaXTwitter className="opacity-75" size={25}/>
+                    {
+                        footerLink.map((elem,key)=>(
+                            <Link key={key} href={elem.link}>
+                                {elem.icon}
+                            </Link>
+                        ))
+                    }
                 </div>
                 <p className='opacity-70'> andrianiainafn &#169; {new Date().getFullYear()} </p>
             </div>
@@ -43,7 +48,7 @@ const Footer = () => {
                 <div className="space-y-2">
                     <div className="flex space-x-2 items-center opacity-75">
                         <MdOutlineEmail size={20}/>
-                        <p>nomena.pro@gmial.com</p>
+                        <p>nomenaf.pro@gmial.com</p>
                     </div>
                     <div className="flex space-x-2 items-center opacity-75">
                         <MdOutlineLocationOn size={20}/>

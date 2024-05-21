@@ -7,11 +7,11 @@ import {IFooterLink} from "@/type/footer_type";
 export const footerLink:IFooterLink[] = [
     {
         icon:<FaFacebook className="opacity-75" size={25}/>,
-        link:""
+        link:"https://www.facebook.com/andrianiainafn"
     },
     {
         icon:<FaGithub className="opacity-75" size={25}/>,
-        link:""
+        link:"https://github.com/andrianiainafn"
     },
     {
         icon:<FaWhatsapp className="opacity-75" size={25}/>,
@@ -19,6 +19,6 @@ export const footerLink:IFooterLink[] = [
     },
     {
         icon:<FaXTwitter className="opacity-75" size={25}/>,
-        link:""
+        link:"https://x.com/ANDRIANIAINAFN"
     },
 ]
