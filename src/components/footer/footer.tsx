@@ -1,8 +1,4 @@
 import React from 'react';
-import { FaFacebook } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa6"
 import { MdOutlineEmail ,MdOutlineLocalPhone,MdOutlineLocationOn} from "react-icons/md";
 import {footerLink} from "@/utils/footer_data";
 import Link from "next/link";
