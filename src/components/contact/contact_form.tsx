@@ -1,26 +1,41 @@
 import React from 'react';
 import { IoSendOutline } from "react-icons/io5";
+import {SubmitHandler, useForm} from "react-hook-form";
+import {sendEmail} from "@/utils/send_mail";
+import {IFormInput} from "@/type/contact_type";
+
+
+
 
 const ContactForm = () => {
+    const {
+        register,
+        handleSubmit,
+        formState:{errors},
+    } = useForm<IFormInput>()
+    const onSubmit: SubmitHandler<IFormInput> = (data)=>{
+        sendEmail(data)
+    }
+
     return (
-        <form className="w-full mm:w-[50%] text-white flex flex-col items-end space-y-6">
+        <form onSubmit={handleSubmit(onSubmit)} className="w-full mm:w-[50%] text-white flex flex-col items-end space-y-6">
             <div className="flex flex-col space-y-2 w-full mm:w-[80%]">
                 <label htmlFor="name">Name</label>
-                <input type="text" name="name" placeholder="John Doe" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
+                <input {...register("name",{required:true})} type="text" name="name" placeholder="John Doe" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
             </div>
             <div className="flex items-center justify-between w-full mm:w-[80%]">
                 <div className="flex flex-col space-y-2  w-[50%]">
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" placeholder="johndoe@gmail.com" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
+                    <input {...register("email",{required:true})} type="email" name="email" placeholder="johndoe@gmail.com" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
                 </div>
                 <div className="flex flex-col space-y-2 w-[45%]">
                     <label htmlFor="phone">Phone number</label>
-                    <input type="text" name="phone" placeholder="+26134568643" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
+                    <input {...register("phone",{required:false})} type="text" name="phone" placeholder="+26134568643" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>
                 </div>
             </div>
             <div className="flex flex-col space-y-2 w-full mm:w-[80%]">
                 <label htmlFor="message">Message</label>
-                <textarea rows={4} name="message" placeholder="Write what you whant..." className="outline-none py-2 px-4 border rounded-xl border-[#304336d9] bg-transparent"/>
+                <textarea {...register("message",{required:true})} rows={4} name="message" placeholder="Write what you whant..." className="outline-none py-2 px-4 border rounded-xl border-[#304336d9] bg-transparent"/>
             </div>
             <button  className="flex  w-full mm:w-[80%]  justify-center cursor-pointer items-center space-x-2  border text-sm font-medium relative border-[#304336d9] text-white  px-4 py-3 rounded-full">
                 <span>Submit</span>
