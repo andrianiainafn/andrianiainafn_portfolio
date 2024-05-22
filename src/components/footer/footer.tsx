@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="flex space-x-2  items-center">
                     {
                         footerLink.map((elem,key)=>(
-                            <Link key={key} href={elem.link}>
+                            <Link key={key} href={elem.link} className="hover:transition hover:scale-150 transition-all hover:text-blue-500">
                                 {elem.icon}
                             </Link>
                         ))

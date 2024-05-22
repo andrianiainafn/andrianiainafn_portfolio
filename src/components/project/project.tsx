@@ -11,7 +11,9 @@ const Project = () => {
                 Explore my work, discover my projects, and get inspired.
             </h2>
             <ProjectCardContainer/>
-            <Cursor/>
+            <div className="h-[10px]">
+                <Cursor/>
+            </div>
         </div>
     );
 };
