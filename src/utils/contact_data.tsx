@@ -5,7 +5,7 @@ import { MdOutlineEmail ,MdOutlineLocalPhone,MdOutlineLocationOn} from "react-ic
 export const contacts:IContact[] = [
     {
         label:"Email me",
-        value:"nomena.pro@gmail.com",
+        value:"nomenaf.pro@gmail.com",
         icon: <MdOutlineEmail className="opacity-75"/>
     },
     {
