@@ -1,15 +1,16 @@
 "use client";
 import React from "react";
-import {FloatingNav} from "@/components/ui/loating-navbar";
+import {FloatingNav} from "@/app/_components/loating-navbar";
 import { IoHomeOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { FiMessageSquare } from "react-icons/fi"
 import { IoExtensionPuzzleOutline } from "react-icons/io5";
 import { FaTasks } from "react-icons/fa";
 import {PageContent} from "@/components/header/page_content";
+import {INav} from "@/type/nav_type";
 
-export function FloatingNavDemo() {
-    const navItems = [
+export function FloatingNavContainer() {
+        const navItems:INav[] = [
         {
             name: "Home",
             link: "#home",

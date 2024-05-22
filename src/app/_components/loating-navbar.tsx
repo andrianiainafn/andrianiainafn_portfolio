@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, {ReactNode, useState} from "react";
 import {
     motion,
     AnimatePresence,
@@ -10,16 +10,14 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 import { GrDownload } from "react-icons/gr";
 import ActionButton from "@/components/ui/action_button";
+import LinksItem from "@/app/_components/links_item";
+import {INav} from "@/type/nav_type";
 
 export const FloatingNav = ({
                                 navItems,
                                 className,
                             }: {
-    navItems: {
-        name: string;
-        link: string;
-        icon?: JSX.Element;
-    }[];
+    navItems: INav[];
     className?: string;
 }) => {
     const { scrollYProgress } = useScroll();
@@ -65,16 +63,7 @@ export const FloatingNav = ({
                 )}
             >
                 {navItems.map((navItem: any, idx: number) => (
-                    <Link
-                        key={`link=${idx}`}
-                        href={navItem.link}
-                        className={cn(
-                            "relative  text-neutral-50 items-center flex space-x-1  hover:text-blue-400 "
-                        )}
-                    >
-                        {navItem.icon}
-                        <span className="hidden sm:block text-sm">{navItem.name}</span>
-                    </Link>
+                    <LinksItem key={idx} idx={idx} link={navItem.link} icon={navItem.icon} name={navItem.name}/>
                 ))}
                 <Link download target="_blank" rel="noopener noreferrer" href="CV-Nomena-Andrianiaina.pdf" className="flex items-end">
                     <ActionButton  label="Get my resume" icon={<GrDownload/>}/>

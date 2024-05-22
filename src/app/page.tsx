@@ -1,7 +1,7 @@
-import {FloatingNavDemo} from "@/components/ui/nav_bar";
+import {FloatingNavContainer} from "@/app/_components/nav_bar";
 
 export default function Home() {
   return (
-      <FloatingNavDemo/>
+      <FloatingNavContainer/>
   );
 }
