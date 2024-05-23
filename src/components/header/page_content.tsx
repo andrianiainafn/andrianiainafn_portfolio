@@ -7,6 +7,7 @@ import Skills from "@/components/skills/skills";
 import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
 import {OrbitingCirclesElement} from "@/components/header/orbiting_circle_element";
+import Experience from "@/components/expericence/experience";
 
 export const PageContent = () => {
     return (
@@ -17,6 +18,7 @@ export const PageContent = () => {
             <Skills/>
             <Incentive/>
             <Project/>
+            <Experience/>
             <Contact/>
             <Footer/>
         </div>
