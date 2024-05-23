@@ -4,6 +4,7 @@ import Link from "next/link";
 import ActionButton from "@/components/ui/action_button";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {BackgroundGradientAnimation} from "@/components/ui/background-gradient-animation";
+import {TextGenerateEffectHero} from "@/components/header/hero_description";
 
 const HeaderContent = () => {
     return (
@@ -17,11 +18,7 @@ const HeaderContent = () => {
                     <h1 className="text-2xl  md:text-2xl lg:text-5xl">
                         Fullstack web & Mobile Developer
                     </h1>
-                    <p className="opacity-75">
-                        Fluent in both full-stack and mobile development,
-                        I create stunning digital solutions from concept to launch.
-                        Let&apos;s turn your ideas into exceptional experiences!
-                    </p>
+                    <TextGenerateEffectHero/>
                     <div className="flex  items-center space-x-3 but pointer-events-auto ">
                         <Link href="https://github.com/andrianiainafn" target="_blank">
                             <ActionButton label="Github" icon={<FaGithub/>}/>
