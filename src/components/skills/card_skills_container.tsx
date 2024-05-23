@@ -1,9 +1,6 @@
 "use client";
-
-import Image from "next/image";
 import React from "react";
-import {CardBody, CardContainer, CardItem} from "@/components/skills/skills_card";
-import { ITech} from "@/type/skills_type";
+import {CardBody, CardContainer} from "@/components/skills/skills_card";
 import {skills} from "@/utils/skills_data";
 import SkillsCardContent from "@/components/skills/skills_card_content";
 
