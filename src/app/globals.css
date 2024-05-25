@@ -44,3 +44,10 @@ body {
         /*display: none;*/
     }
 }
+.bg-background {
+    background-image: url('../utils/background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #304336d9; /* Fallback color */
+}

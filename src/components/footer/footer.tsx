@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div className="text-white relative w-full  bg-[#304336d9]  flex flex-col space-y-4 vm:space-y-0 items-start m-auto  vm:flex-row vm:justify-between vm:flex-wrap overflow-hidden vm:items-start px-[5%] py-[2%]  ">
+        <div className="text-white relative w-full bg-background  flex flex-col space-y-4 vm:space-y-0 items-start m-auto  vm:flex-row vm:justify-between vm:flex-wrap overflow-hidden vm:items-start px-[5%] py-[2%]  ">
             <div  className="space-y-3">
                 <h3 className="font-bold text-xl">Find me in</h3>
                 <div className="flex space-x-2  items-center">
