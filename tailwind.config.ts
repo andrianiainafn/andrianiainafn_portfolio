@@ -16,7 +16,7 @@ const config: Config = {
         ml:"1000px",
         vm:"530px",
         tm:"1200px",
-        big:"1800"
+        big:"1800px"
       },
       animation: {
         first: "moveVertical 30s ease infinite",
