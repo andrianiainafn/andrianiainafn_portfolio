@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 const HeaderContent = () => {
     return (
         <BackgroundGradientAnimation className="hidden mm:block" containerClassName="hidden mm:block">
-            <div className="absolute z-50 inset-0 flex items-center m-auto justify-around text-white font-bold  pointer-events-none ">
+            <div className="absolute z-50 inset-0 flex  items-center m-auto justify-around text-white font-bold  pointer-events-none ">
                 <motion.div
                     transition={{
                         duration: 0.5
@@ -42,7 +42,7 @@ const HeaderContent = () => {
                             opacity: 1
                         }}
                         viewport={{once:true}}
-                        className="text-blue-500  text-2xl">
+                        className="text-blue-500  text-2xl big:text-4xl">
                         👋 Hello there, I&apos;m Nomena Andrianiaina
                     </motion.h2>
                     <motion.h1
@@ -59,7 +59,7 @@ const HeaderContent = () => {
                             opacity: 1
                         }}
                         viewport={{once:true}}
-                        className="text-2xl  md:text-2xl lg:text-5xl">
+                        className="text-2xl  md:text-2xl lg:text-5xl big:text-7xl">
                         Fullstack web & Mobile Developer
                     </motion.h1>
                     <motion.div
