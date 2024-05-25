@@ -14,32 +14,32 @@ export function FloatingNavContainer() {
         {
             name: "Home",
             link: "#home",
-            icon: <IoHomeOutline className="h-4 w-4 " />,
+            icon: <IoHomeOutline className="h-4 w-4 big:h-5 big:w-5 " />,
         },
         {
             name: "About",
             link: "#about",
-            icon: <FaRegUser className="h-4 w-4 " />,
+            icon: <FaRegUser className="h-4 w-4 big:h-5 big:w-5" />,
         },
         {
             name: "Project",
             link: "#project",
             icon: (
-                <FaTasks className="h-4 w-4  " />
+                <FaTasks className="h-4 w-4  big:h-5 big:w-5" />
             ),
         },
         {
             name: "Skills",
             link: "#skills",
             icon: (
-                <IoExtensionPuzzleOutline className="h-4 w-4 " />
+                <IoExtensionPuzzleOutline className="h-4 w-4 big:h-5 big:w-5" />
             ),
         },
         {
             name: "Contact",
             link: "#contact",
             icon: (
-                <FiMessageSquare className="h-4 w-4 " />
+                <FiMessageSquare className="h-4 w-4 big:h-5 big:w-5" />
             ),
         },
     ];

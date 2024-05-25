@@ -35,11 +35,11 @@ const LinksItem = (props: Props) => {
                 handleHashChange();
             }}
             className={
-                `relative items-center flex space-x-1 hover:text-blue-400 ${isActive ? "text-blue-500" : "text-neutral-50"}`
+                `relative items-center  flex space-x-1 hover:text-blue-400 ${isActive ? "text-blue-500" : "text-neutral-50"}`
             }
         >
             {icon}
-            <span className="hidden sm:block text-sm">{name}</span>
+            <span className="hidden sm:block text-sm big:text-2xl">{name}</span>
         </Link>
     );
 };
