@@ -18,7 +18,7 @@ const ContactForm = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className="w-full mm:w-[50%] text-white flex flex-col items-end space-y-6">
+        <form onSubmit={handleSubmit(onSubmit)} className="w-full mm:w-[50%] big:text-xl text-white flex flex-col items-end space-y-6">
             <div className="flex flex-col space-y-2 w-full mm:w-[80%]">
                 <label htmlFor="name">Name</label>
                 <input {...register("name",{required:true})} type="text" name="name" placeholder="John Doe" className="outline-none py-2 px-4 border border-[#304336d9] rounded-full bg-transparent"/>

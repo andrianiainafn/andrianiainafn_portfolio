@@ -27,17 +27,17 @@ const About = () => {
         }
     );
     return (
-        <div id="about" ref={container} className="w-full px-[5%] flex flex-col space-y-4 relative text-white  bg-black">
+        <div id="about" ref={container} className="w-full px-[5%] flex flex-col space-y-7 relative text-white  bg-black">
             <SectionTitle label="About"/>
-            <div className="flex relative flex-col space-y-3 mm:space-y-0 mm:flex-row justify-between w-full">
-                <div className="flex w flex-col space-y-3 w-full mm:w-[50%]">
-                    <h4 className="text-2xl above  md:text-4xl lg:text-5xl">
+            <div className="flex relative flex-col big:space-y-6 space-y-3 mm:space-y-0 mm:flex-row justify-between w-full">
+                <div className="flex big:space-y-6 flex-col space-y-3 w-full mm:w-[50%]">
+                    <h4 className="text-2xl above  md:text-4xl lg:text-5xl big:text-6xl">
                         I am able to deliver results that exceed your expectations
                     {/*    <span className="relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-blue-500 to-[#304336d9] dark:from-blue-500 dark:to-[#304336d9]">    */}
                     {/*</span>*/}
                     </h4>
                     <div>
-                        <button  className="flex above cursor-pointer items-center  space-x-2  border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-white dark:text-white px-4 py-2 rounded-full">
+                        <button  className="flex above cursor-pointer items-center big:text-2xl  space-x-2  border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-white dark:text-white px-4 py-2 rounded-full">
                             <span>Hire me now</span>
                             <FaArrowRightLong/>
                             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
@@ -55,7 +55,7 @@ const About = () => {
                     <div className="box box-a absolute opacity-60 bottom-[10%] right-[10%] animate-second text-blue-500 transform rotate-45 gradient-blue" data-speed="1.5">
                         Innovative
                     </div>
-                    <p className="text-justify above" >
+                    <p className="text-justify above big:text-2xl" >
                         Hello! I&apos;m Nomena Andrianiaina, currently a student at the National School of Computer Science.
                         Passionate about the world of technology, I take great pleasure in solving problems with easy-to-use mobile or web applications.
                         I love collaborating with other developers to design and develop innovative solutions.
