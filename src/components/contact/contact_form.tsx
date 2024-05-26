@@ -1,8 +1,8 @@
 import React from 'react';
 import { IoSendOutline } from "react-icons/io5";
 import {SubmitHandler, useForm} from "react-hook-form";
-import {sendEmail} from "@/utils/send_mail";
 import {IFormInput} from "@/type/contact_type";
+import {sendEmail} from "@/utils/send_mail";
 
 
 
@@ -14,9 +14,8 @@ const ContactForm = () => {
         formState:{errors},
     } = useForm<IFormInput>()
     const onSubmit: SubmitHandler<IFormInput> = (data)=>{
-        sendEmail(data)
+          sendEmail(data)
     }
-
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="w-full mm:w-[50%] big:text-xl text-white flex flex-col items-end space-y-6">
             <div className="flex flex-col space-y-2 w-full mm:w-[80%]">
