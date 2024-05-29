@@ -51,6 +51,10 @@ export const skills:ISkills[] = [
                 label:"Spring boot",
                 image:"icons8-spring-boot.png"
             },
+            {
+                label: "Keycloak",
+                image:"keycloak.jpg"
+            }
         ]
     },
     {
