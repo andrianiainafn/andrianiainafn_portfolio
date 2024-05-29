@@ -65,7 +65,7 @@ export const FloatingNav = ({
                 {navItems.map((navItem: any, idx: number) => (
                     <LinksItem key={idx} idx={idx} link={navItem.link} icon={navItem.icon} name={navItem.name}/>
                 ))}
-                <Link download target="_blank" rel="noopener noreferrer" href="CV-Nomena-Andrianiaina.pdf" className="flex items-end">
+                <Link download target="_blank" rel="noopener noreferrer" href="CV-Nomena-Andrianiaina-fullstack.pdf" className="flex items-end">
                     <ActionButton  label="Get my resume" icon={<GrDownload/>}/>
                 </Link>
             </motion.div>
