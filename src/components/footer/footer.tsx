@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className="space-y-2">
                     <div className="flex space-x-2 items-center opacity-75">
                         <MdOutlineEmail size={20}/>
-                        <p>nomenaf.pro@gmial.com</p>
+                        <p>nomenaf.pro@gmail.com</p>
                     </div>
                     <div className="flex space-x-2 items-center opacity-75">
                         <MdOutlineLocationOn size={20}/>
