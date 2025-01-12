@@ -38,6 +38,10 @@ export const skills:ISkills[] = [
                 label:"Flutter",
                 image:"icons8-flutter.png"
             },
+            {
+                label:"React Native",
+                image:"icons8-react.png"
+            },
         ]
     },
     {

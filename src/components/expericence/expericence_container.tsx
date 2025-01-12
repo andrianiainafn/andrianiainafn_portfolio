@@ -40,18 +40,26 @@ export function ExperienceContainer() {
 
 const dummyContent = [
     {
-        title: "Flutter Developer",
+        title: "NextJs & React Native Developer",
         description: (
             <ExperienceDescription description={experiences[0]}/>
         ),
-        badge: "ENI | May 2024 - Now ",
+        badge: "Orange Madagascar | July - Nov 2024 ",
+        image: "/mada-explore.jpg",
+    },
+    {
+        title: "Flutter Developer",
+        description: (
+            <ExperienceDescription description={experiences[1]}/>
+        ),
+        badge: "ENI | May  - July 2024",
         image:
             "/poketra.png",
     },
     {
         title: "Fullstack Developer",
         description: (
-            <ExperienceDescription description={experiences[1]}/>
+            <ExperienceDescription description={experiences[2]}/>
         ),
         badge: "DGEP | Oct - Dec 2023 ",
         image:

@@ -4,19 +4,19 @@ export const experiences:IExperience[]=[
     {
         tech: [
             {
-                label:"Dart",
-                image:"icons8-dart.png"
+                label:"Spring boot",
+                image:"icons8-spring-boot.png"
             },{
-                label:"Flutter",
-                image:"icons8-flutter.png"
+                label:"React Native",
+                image:"incons8-react.png"
             },{
-                label:"Firebase",
-                image:"icons8-firebase.png"
+                label:"NextJs",
+                image:"icons8-nextjs.png"
             },
         ],
         descriptions: [
-            "Design and development of a budget management application for students.",
-            "Development of a financial education application for students."
+            "Design and development of a mobile tourism application with a 360-degree tour.",
+            "Development and deployment of a website for Mada Exxplore."
         ]
 
     }, {
@@ -42,5 +42,24 @@ export const experiences:IExperience[]=[
             "Development of an annual project management application and task allocation",
             "Development of a real-time communication and exchange application."
         ]
+    },
+    {
+        tech: [
+            {
+                label:"Dart",
+                image:"icons8-dart.png"
+            },{
+                label:"Flutter",
+                image:"icons8-flutter.png"
+            },{
+                label:"Firebase",
+                image:"icons8-firebase.png"
+            },
+        ],
+        descriptions: [
+            "Design and development of a budget management application for students.",
+            "Development of a financial education application for students."
+        ]
+
     }
 ]
