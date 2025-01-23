@@ -17,8 +17,8 @@ export const PageContent = () => {
             <About/>
             <Skills/>
             <Incentive/>
-            <Project/>
             <Experience/>
+            <Project/>
             <Contact/>
             <Footer/>
         </div>

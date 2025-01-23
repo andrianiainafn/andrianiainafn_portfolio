@@ -8,7 +8,7 @@ export const experiences:IExperience[]=[
                 image:"icons8-spring-boot.png"
             },{
                 label:"React Native",
-                image:"incons8-react.png"
+                image:"icons8-react.png"
             },{
                 label:"NextJs",
                 image:"icons8-nextjs.png"
@@ -59,6 +59,26 @@ export const experiences:IExperience[]=[
         descriptions: [
             "Design and development of a budget management application for students.",
             "Development of a financial education application for students."
+        ]
+
+    },
+    {
+        tech: [
+            {
+                label:"Spring boot",
+                image:"icons8-spring-boot.png"
+            },{
+                label:"React Native",
+                image:"icons8-react.png"
+            },{
+                label:"NextJs",
+                image:"icons8-nextjs.png"
+            },
+        ],
+        descriptions: [
+            "Development of a web application for administrators and establishments (such as hospitals or clinics) to manage " +
+            "users who book appointments.",
+            "Development of a mobile application linked to the web application and an iBeacon connected via Bluetooth. "
         ]
 
     }

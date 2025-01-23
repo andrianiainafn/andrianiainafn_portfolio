@@ -20,15 +20,15 @@ export function ExperienceContainer() {
                         </p>
 
                         <div className="text-sm  prose prose-sm dark:prose-invert">
-                            {item?.image && (
-                                <Image
-                                    src={item.image}
-                                    alt="blog thumbnail"
-                                    height="1000"
-                                    width="1000"
-                                    className="rounded-lg mb-10 object-cover"
-                                />
-                            )}
+                                {/*{item?.image && (*/}
+                                {/*    <Image*/}
+                                {/*        src={item.image}*/}
+                                {/*        alt="blog thumbnail"*/}
+                                {/*        height="1000"*/}
+                                {/*        width="1000"*/}
+                                {/*        className="rounded-lg mb-10 object-cover"*/}
+                                {/*    />*/}
+                                {/*)}*/}
                             {item.description}
                         </div>
                     </div>
@@ -42,6 +42,14 @@ const dummyContent = [
     {
         title: "NextJs & React Native Developer",
         description: (
+            <ExperienceDescription description={experiences[3]}/>
+        ),
+        badge: "Freelance | Nov 2024 - Now ",
+        image: "/topr.png",
+    },
+    {
+        title: "NextJs & React Native Developer",
+        description: (
             <ExperienceDescription description={experiences[0]}/>
         ),
         badge: "Orange Madagascar | July - Nov 2024 ",
@@ -52,7 +60,7 @@ const dummyContent = [
         description: (
             <ExperienceDescription description={experiences[1]}/>
         ),
-        badge: "ENI | May  - July 2024",
+        badge: "Ecole Nationale d'Infomatique | May  - July 2024",
         image:
             "/poketra.png",
     },
