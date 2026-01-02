@@ -6,16 +6,33 @@
   z-index: 0 !important;
   will-change: transform;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overscroll-behavior: none;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.dark body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light body {
+  background-color: #ffffff;
+  color: #0a0a0a;
+}
+
 .above{
   z-index: 999 !important;
 }
+
 #project:hover{
   .custom-cursor{
     position: fixed;
@@ -44,10 +61,18 @@ body {
     /*display: none;*/
   }
 }
+
 .bg-background {
   background-image: url('../utils/background.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #304336d9; /* Fallback color */
+}
+
+.dark .bg-background {
+  background-color: #304336d9;
+}
+
+.light .bg-background {
+  background-color: #f0f9ff;
 }

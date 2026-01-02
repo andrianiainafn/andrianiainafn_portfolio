@@ -35,7 +35,7 @@ const LinksItem = (props: Props) => {
                 handleHashChange();
             }}
             className={
-                `relative items-center  flex space-x-1 hover:text-blue-400 ${isActive ? "text-blue-500" : "text-neutral-50"}`
+                `relative items-center flex space-x-1 hover:text-blue-500 dark:hover:text-blue-400 ${isActive ? "text-blue-600 dark:text-blue-500" : "text-gray-700 dark:text-neutral-50"} transition-colors duration-200`
             }
         >
             {icon}

@@ -1,16 +1,17 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import {cn} from "@/utils/cn";
+import { useTheme } from "./theme-provider";
 
 export const BackgroundGradientAnimation = ({
-                                                gradientBackgroundStart = "rgb(0, 0, 0)",
-                                                gradientBackgroundEnd = "rgb(0, 0, 0)",
-                                                firstColor = "59, 130, 146",
-                                                secondColor = "48, 67, 54",
-                                                thirdColor = "48, 67, 54",
-                                                fourthColor = "48, 67, 54",
-                                                fifthColor = "59, 130, 146",
-                                                pointerColor = "59, 130, 146",
+                                                gradientBackgroundStart,
+                                                gradientBackgroundEnd,
+                                                firstColor,
+                                                secondColor,
+                                                thirdColor,
+                                                fourthColor,
+                                                fifthColor,
+                                                pointerColor,
                                                 size = "80%",
                                                 blendingValue = "hard-light",
                                                 children,
@@ -33,30 +34,44 @@ export const BackgroundGradientAnimation = ({
     interactive?: boolean;
     containerClassName?: string;
 }) => {
+    const { theme } = useTheme();
     const interactiveRef = useRef<HTMLDivElement>(null);
 
     const [curX, setCurX] = useState(0);
     const [curY, setCurY] = useState(0);
     const [tgX, setTgX] = useState(0);
     const [tgY, setTgY] = useState(0);
+
+    // Default colors based on theme
+    const isDark = theme === "dark";
+    
+    const defaultGradientStart = isDark ? "rgb(0, 0, 0)" : "rgb(255, 255, 255)";
+    const defaultGradientEnd = isDark ? "rgb(0, 0, 0)" : "rgb(240, 249, 255)";
+    const defaultFirstColor = isDark ? "59, 130, 146" : "59, 130, 246";
+    const defaultSecondColor = isDark ? "48, 67, 54" : "139, 92, 246";
+    const defaultThirdColor = isDark ? "48, 67, 54" : "236, 72, 153";
+    const defaultFourthColor = isDark ? "48, 67, 54" : "251, 146, 60";
+    const defaultFifthColor = isDark ? "59, 130, 146" : "34, 197, 94";
+    const defaultPointerColor = isDark ? "59, 130, 146" : "59, 130, 246";
+
     useEffect(() => {
         document.body.style.setProperty(
             "--gradient-background-start",
-            gradientBackgroundStart
+            gradientBackgroundStart || defaultGradientStart
         );
         document.body.style.setProperty(
             "--gradient-background-end",
-            gradientBackgroundEnd
+            gradientBackgroundEnd || defaultGradientEnd
         );
-        document.body.style.setProperty("--first-color", firstColor);
-        document.body.style.setProperty("--second-color", secondColor);
-        document.body.style.setProperty("--third-color", thirdColor);
-        document.body.style.setProperty("--fourth-color", fourthColor);
-        document.body.style.setProperty("--fifth-color", fifthColor);
-        document.body.style.setProperty("--pointer-color", pointerColor);
+        document.body.style.setProperty("--first-color", firstColor || defaultFirstColor);
+        document.body.style.setProperty("--second-color", secondColor || defaultSecondColor);
+        document.body.style.setProperty("--third-color", thirdColor || defaultThirdColor);
+        document.body.style.setProperty("--fourth-color", fourthColor || defaultFourthColor);
+        document.body.style.setProperty("--fifth-color", fifthColor || defaultFifthColor);
+        document.body.style.setProperty("--pointer-color", pointerColor || defaultPointerColor);
         document.body.style.setProperty("--size", size);
         document.body.style.setProperty("--blending-value", blendingValue);
-    }, []);
+    }, [theme, gradientBackgroundStart, gradientBackgroundEnd, firstColor, secondColor, thirdColor, fourthColor, fifthColor, pointerColor, size, blendingValue, defaultGradientStart, defaultGradientEnd, defaultFirstColor, defaultSecondColor, defaultThirdColor, defaultFourthColor, defaultFifthColor, defaultPointerColor]);
 
     useEffect(() => {
         function move() {

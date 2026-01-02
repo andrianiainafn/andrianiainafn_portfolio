@@ -4,7 +4,7 @@ import ProjectCardItem from "@/components/project/project_card_item";
 
 const ProjectCardContainer = () => {
     return (
-        <div className="flex justify-center flex-col  items-center space-y-20">
+        <div className="flex justify-center flex-col items-center space-y-20 md:space-y-28">
             {
                 projects.map((elem,key)=>(
                     <ProjectCardItem key={key} project={elem} number={key}/>

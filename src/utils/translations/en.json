@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "resume": "Get my resume"
+  },
+  "header": {
+    "greeting": "Hello there, I'm Nomena Andrianiaina",
+    "title": "Fullstack web & Mobile Developer",
+    "description": "Fluent in both full-stack and mobile development, I create stunning digital solutions from concept to launch. Let's turn your ideas into exceptional experiences!",
+    "resideIn": "Reside in"
+  },
+  "about": {
+    "title": "About",
+    "heading": "I am able to deliver results that exceed your expectations",
+    "cta": "Hire me now",
+    "scroll": "Scroll",
+    "description": "Hello! I'm Nomena Andrianiaina, currently a student at the National School of Computer Science. Passionate about the world of technology, I take great pleasure in solving problems with easy-to-use mobile or web applications. I love collaborating with other developers to design and develop innovative solutions. Always eager to learn and improve, I am aware that the world of computer science evolves every day. And as they say, 'learning is my source code'! Outside of coding, you can find me searching for the latest tech meme online or exploring new cafes to fuel my passion for coffee and code. Join me in this adventure where creativity and technology meet!"
+  },
+  "skills": {
+    "title": "Skills",
+    "titles": {
+      "frontend": "Frontend",
+      "mobile": "Mobile",
+      "backend": "Backend",
+      "problemSolving": "Problem solving",
+      "databases": "DataBases",
+      "tools": "Tools"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "descriptions": {
+      "exp1": [
+        "Development of a complete SaaS platform for creating, automating, and broadcasting digital radio stations.",
+        "Implementation of AI-powered content generation for automated radio programming.",
+        "Design and development of an intuitive interface for managing radio stations, scheduling content, and broadcasting across multiple channels."
+      ],
+      "exp2": [
+        "Design and development of a mobile tourism application with a 360-degree tour.",
+        "Development and deployment of a website for Mada Exxplore."
+      ],
+      "exp3": [
+        "Development of an annual project management application and task allocation",
+        "Development of a real-time communication and exchange application."
+      ],
+      "exp4": [
+        "Design and development of a budget management application for students.",
+        "Development of a financial education application for students."
+      ],
+      "exp5": [
+        "Development of a web application for administrators and establishments (such as hospitals or clinics) to manage users who book appointments.",
+        "Development of a mobile application linked to the web application and an iBeacon connected via Bluetooth."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Explore my work, discover my projects, and get inspired.",
+    "types": {
+      "personal": "Personal project",
+      "hackathon": "Hackathon project",
+      "team": "Team project"
+    },
+    "links": {
+      "source": "Source",
+      "demo": "Demo"
+    },
+    "descriptions": {
+      "gmi": "GMI is an application for managing computer equipment, intended for businesses and organizations. GMI allows real-time monitoring of the status of equipment within the organization or company and assigning personnel to one or more pieces of equipment. It allows company personnel to request new equipment or declare that equipment requires maintenance. It also allows for managing the role of each individual within the company",
+      "dotDoubleZero": "\".00\" or \"Dot double zero\" is a website that offers an agent the possibilities to receive a mission assignment; to receive the necessary documents; to remotely command the activation of their gadgets and transportation tools. Each agent in a mission can be remotely assisted by their teammates using GPS location and also a distress signal on the map in case of alert.",
+      "chaaat": "Chaat: Connect with friends, share moments, and discover the world through conversations. A fun and engaging social platform to chat, share, and stay connected with people who matter most.",
+      "miray": "Our Student Q&A Platform facilitates seamless communication and collaboration among students. Users can pose inquiries on a wide range of academic subjects and contribute insightful responses to peers' queries. With features like upvoting and downvoting, users actively shape the platform's content. Additionally, they can follow specific topics or users to stay informed and engaged.",
+      "elita": "CodigoElita: Transforming ideas into digital solutions. We're your digital startup partner, turning concepts into powerful digital assets that serve your clients' needs. From ideation to execution, CodigoElita is your gateway to a digital future"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Let's build an awesome project together!",
+    "description": "Explore my work, discover my projects, and get inspired. Need a robust web or mobile application? Or just want to chat about your next project? Contact me now!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Submit",
+      "placeholders": {
+        "name": "John Doe",
+        "email": "johndoe@gmail.com",
+        "phone": "+26134568643",
+        "message": "Write what you want...",
+        "required": "is required"
+      }
+    },
+    "cards": {
+      "email": "Email me",
+      "location": "My location",
+      "call": "Call me"
+    }
+  },
+  "footer": {
+    "findMe": "Find me in",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact",
+    "productsList": {
+      "ios": "iOS & Android Applications",
+      "web": "Web Applications"
+    },
+    "servicesList": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "mobile": "Mobile Development"
+    }
+  },
+  "incentive": {
+    "text": "Building scalable solutions with precision, innovation, and technical excellence"
+  }
+}
+

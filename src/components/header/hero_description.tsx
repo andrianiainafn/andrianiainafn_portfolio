@@ -1,11 +1,8 @@
 "use client";
 import {TextGenerateEffect} from "@/components/ui/text_generate_effect";
-
-const words =
-    `Fluent in both full-stack and mobile development,
-    I create stunning digital solutions from concept to launch.
-    Let's turn your ideas into exceptional experiences!`;
+import {useLanguage} from "@/components/ui/language-provider";
 
 export function TextGenerateEffectHero() {
-    return <TextGenerateEffect words={words} className="opacity-75" />;
+    const { t } = useLanguage();
+    return <TextGenerateEffect words={t.header.description} className="opacity-75" />;
 }

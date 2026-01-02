@@ -4,6 +4,28 @@ export const experiences:IExperience[]=[
     {
         tech: [
             {
+                label:"NextJs",
+                image:"icons8-nextjs.png"
+            },{
+                label:"ReactJs",
+                image:"icons8-react.png"
+            },{
+                label:"Typescript",
+                image:"icons8-typescript.png"
+            },{
+                label:"Prisma",
+                image:"prisma.png"
+            },
+        ],
+        descriptions: [
+            "Development of a complete SaaS platform for creating, automating, and broadcasting digital radio stations.",
+            "Implementation of AI-powered content generation for automated radio programming.",
+            "Design and development of an intuitive interface for managing radio stations, scheduling content, and broadcasting across multiple channels."
+        ]
+
+    }, {
+        tech: [
+            {
                 label:"Spring boot",
                 image:"icons8-spring-boot.png"
             },{

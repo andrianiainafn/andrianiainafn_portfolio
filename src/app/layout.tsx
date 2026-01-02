@@ -3,6 +3,8 @@ import { Inter,Montserrat  } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import {Toaster} from "@/components/ui/toaster";
+import {ThemeProvider} from "@/components/ui/theme-provider";
+import {LanguageProvider} from "@/components/ui/language-provider";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 const inter = Inter({ subsets: ["latin"] });
@@ -18,10 +20,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body className={`${montserrat.className} scroll-smooth`}>
-        {children}
-        <Toaster/>
+        <ThemeProvider>
+          <LanguageProvider>
+            {children}
+            <Toaster/>
+          </LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -8,28 +8,19 @@ import {experiences} from "@/utils/experience_data";
 export function ExperienceContainer() {
     return (
         <TracingBeam className="px-6">
-            <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+            <div className="max-w-3xl mx-auto antialiased pt-4 relative">
                 {dummyContent.map((item, index) => (
-                    <div key={`content-${index}`} className="mb-10">
-                        <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+                    <div key={`content-${index}`} className="mb-12 group">
+                        <div className="bg-gradient-to-r from-blue-500/20 to-blue-500/10 border border-blue-500/40 dark:border-blue-500/30 text-blue-600 dark:text-blue-400 rounded-full text-xs font-semibold w-fit px-4 py-1.5 mb-4 backdrop-blur-sm">
                             {item.badge}
-                        </h2>
+                        </div>
 
-                        <p className={"text-xl mb-4"}>
+                        <h3 className="text-xl md:text-2xl mb-6 font-semibold text-gray-900 dark:text-white">
                             {item.title}
-                        </p>
+                        </h3>
 
-                        <div className="text-sm  prose prose-sm dark:prose-invert">
-                                {/*{item?.image && (*/}
-                                {/*    <Image*/}
-                                {/*        src={item.image}*/}
-                                {/*        alt="blog thumbnail"*/}
-                                {/*        height="1000"*/}
-                                {/*        width="1000"*/}
-                                {/*        className="rounded-lg mb-10 object-cover"*/}
-                                {/*    />*/}
-                                {/*)}*/}
-                            {item.description}
+                        <div className="text-sm prose prose-sm dark:prose-invert">
+                            <ExperienceDescription description={item.experience} experienceIndex={item.expIndex} />
                         </div>
                     </div>
                 ))}
@@ -40,35 +31,38 @@ export function ExperienceContainer() {
 
 const dummyContent = [
     {
+        title: "Fullstack Javascript Developer",
+        experience: experiences[0],
+        expIndex: 0,
+        badge: "Freelance | Fev 2025 - Now ",
+        image: "/webradio.png",
+    },
+    {
         title: "NextJs & React Native Developer",
-        description: (
-            <ExperienceDescription description={experiences[3]}/>
-        ),
-        badge: "Freelance | Nov 2024 - Now ",
+        experience: experiences[4],
+        expIndex: 4,
+        badge: "Freelance | Nov 2024 - Fev 2025 ",
         image: "/topr.png",
     },
     {
         title: "NextJs & React Native Developer",
-        description: (
-            <ExperienceDescription description={experiences[0]}/>
-        ),
+        experience: experiences[1],
+        expIndex: 1,
         badge: "Orange Madagascar | July - Nov 2024 ",
         image: "/mada-explore.jpg",
     },
     {
         title: "Flutter Developer",
-        description: (
-            <ExperienceDescription description={experiences[1]}/>
-        ),
+        experience: experiences[2],
+        expIndex: 2,
         badge: "Ecole Nationale d'Infomatique | May  - July 2024",
         image:
             "/poketra.png",
     },
     {
         title: "Fullstack Developer",
-        description: (
-            <ExperienceDescription description={experiences[2]}/>
-        ),
+        experience: experiences[3],
+        expIndex: 3,
         badge: "DGEP | Oct - Dec 2023 ",
         image:
             "/dashboard.png",

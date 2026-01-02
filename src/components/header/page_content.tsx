@@ -11,7 +11,7 @@ import Experience from "@/components/expericence/experience";
 
 export const PageContent = () => {
     return (
-        <div className="bg-black w-full space-y-20" >
+        <div className="bg-white dark:bg-black w-full transition-colors duration-300" >
             <Header/>
             <OrbitingCirclesElement/>
             <About/>

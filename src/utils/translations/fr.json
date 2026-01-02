@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "resume": "Télécharger mon CV"
+  },
+  "header": {
+    "greeting": "Bonjour, je suis Nomena Andrianiaina",
+    "title": "Développeur Fullstack Web & Mobile",
+    "description": "Maîtrisant à la fois le développement full-stack et mobile, je crée des solutions numériques exceptionnelles de la conception au lancement. Transformons vos idées en expériences remarquables !",
+    "resideIn": "Résidant à"
+  },
+  "about": {
+    "title": "À propos",
+    "heading": "Je suis capable de fournir des résultats qui dépassent vos attentes",
+    "cta": "M'embaucher maintenant",
+    "scroll": "Défiler",
+    "description": "Bonjour ! Je suis Nomena Andrianiaina, actuellement étudiant à l'École Nationale d'Informatique. Passionné par le monde de la technologie, je prends beaucoup de plaisir à résoudre des problèmes avec des applications mobiles ou web faciles à utiliser. J'aime collaborer avec d'autres développeurs pour concevoir et développer des solutions innovantes. Toujours avide d'apprendre et de m'améliorer, je suis conscient que le monde de l'informatique évolue chaque jour. Et comme on dit, 'l'apprentissage est mon code source' ! En dehors du codage, vous pouvez me trouver à chercher les derniers mèmes techno en ligne ou à explorer de nouveaux cafés pour alimenter ma passion pour le café et le code. Rejoignez-moi dans cette aventure où créativité et technologie se rencontrent !"
+  },
+  "skills": {
+    "title": "Compétences",
+    "titles": {
+      "frontend": "Frontend",
+      "mobile": "Mobile",
+      "backend": "Backend",
+      "problemSolving": "Résolution de problèmes",
+      "databases": "Bases de données",
+      "tools": "Outils"
+    }
+  },
+  "experience": {
+    "title": "Expérience",
+    "descriptions": {
+      "exp1": [
+        "Développement d'une plateforme SaaS complète pour créer, automatiser et diffuser des radios digitales.",
+        "Implémentation de la génération de contenu assistée par IA pour la programmation radio automatisée.",
+        "Conception et développement d'une interface intuitive pour gérer les radios, planifier le contenu et diffuser sur plusieurs canaux."
+      ],
+      "exp2": [
+        "Conception et développement d'une application mobile de tourisme avec visite virtuelle à 360 degrés.",
+        "Développement et déploiement d'un site web pour Mada Exxplore."
+      ],
+      "exp3": [
+        "Développement d'une application de gestion de projets annuels et d'allocation de tâches",
+        "Développement d'une application de communication et d'échange en temps réel."
+      ],
+      "exp4": [
+        "Conception et développement d'une application de gestion de budget pour étudiants.",
+        "Développement d'une application d'éducation financière pour étudiants."
+      ],
+      "exp5": [
+        "Développement d'une application web pour les administrateurs et établissements (tels que hôpitaux ou cliniques) pour gérer les utilisateurs qui réservent des rendez-vous.",
+        "Développement d'une application mobile liée à l'application web et un iBeacon connecté via Bluetooth."
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Explorez mon travail, découvrez mes projets et inspirez-vous.",
+    "types": {
+      "personal": "Projet personnel",
+      "hackathon": "Projet hackathon",
+      "team": "Projet d'équipe"
+    },
+    "links": {
+      "source": "Source",
+      "demo": "Démo"
+    },
+    "descriptions": {
+      "gmi": "GMI est une application de gestion d'équipements informatiques destinée aux entreprises et organisations. GMI permet le suivi en temps réel de l'état des équipements au sein de l'organisation ou de l'entreprise et l'attribution du personnel à un ou plusieurs équipements. Elle permet au personnel de l'entreprise de demander de nouveaux équipements ou de déclarer que des équipements nécessitent une maintenance. Elle permet également de gérer le rôle de chaque individu au sein de l'entreprise",
+      "dotDoubleZero": "\".00\" ou \"Dot double zero\" est un site web qui offre à un agent la possibilité de recevoir une mission ; de recevoir les documents nécessaires ; de commander à distance l'activation de ses gadgets et outils de transport. Chaque agent en mission peut être assisté à distance par ses coéquipiers en utilisant la localisation GPS et également un signal de détresse sur la carte en cas d'alerte.",
+      "chaaat": "Chaat : Connectez-vous avec des amis, partagez des moments et découvrez le monde à travers les conversations. Une plateforme sociale amusante et engageante pour discuter, partager et rester connecté avec les personnes qui comptent le plus.",
+      "miray": "Notre plateforme de questions-réponses pour étudiants facilite la communication et la collaboration entre étudiants. Les utilisateurs peuvent poser des questions sur une large gamme de sujets académiques et contribuer avec des réponses pertinentes aux questions de leurs pairs. Avec des fonctionnalités comme les votes positifs et négatifs, les utilisateurs façonnent activement le contenu de la plateforme. De plus, ils peuvent suivre des sujets ou des utilisateurs spécifiques pour rester informés et engagés.",
+      "elita": "CodigoElita : Transformer les idées en solutions numériques. Nous sommes votre partenaire startup numérique, transformant les concepts en actifs numériques puissants qui servent les besoins de vos clients. De la conception à l'exécution, CodigoElita est votre porte d'entrée vers un avenir numérique"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Créons un projet exceptionnel ensemble !",
+    "description": "Explorez mon travail, découvrez mes projets et inspirez-vous. Besoin d'une application web ou mobile robuste ? Ou simplement envie de discuter de votre prochain projet ? Contactez-moi maintenant !",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer",
+      "placeholders": {
+        "name": "Jean Dupont",
+        "email": "jeandupont@gmail.com",
+        "phone": "+26134568643",
+        "message": "Écrivez ce que vous voulez...",
+        "required": "est requis"
+      }
+    },
+    "cards": {
+      "email": "M'envoyer un email",
+      "location": "Ma localisation",
+      "call": "M'appeler"
+    }
+  },
+  "footer": {
+    "findMe": "Trouvez-moi sur",
+    "products": "Produits",
+    "services": "Services",
+    "contact": "Contact",
+    "productsList": {
+      "ios": "Applications iOS et Android",
+      "web": "Applications Web"
+    },
+    "servicesList": {
+      "frontend": "Développement Frontend",
+      "backend": "Développement Backend",
+      "mobile": "Développement Mobile"
+    }
+  },
+  "incentive": {
+    "text": "Création de solutions évolutives avec précision, innovation et excellence technique"
+  }
+}
+
