@@ -1,9 +1,0 @@
-{
-  "functions": {
-    "src/app/api/**/*.ts": {
-      "runtime": "nodejs24.x"
-    }
-  },
-  "buildCommand": "npm run build"
-}
-
