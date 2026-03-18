@@ -44,20 +44,14 @@ export const experiences:IExperience[]=[
     }, {
         tech: [
             {
-                label:"Typescript",
-                image:"icons8-typescript.png"
-            },
-            {
-                label:"NodeJs",
-                image:"icons8-nodejs.png"
-            },
-            {
-                label:"ReactJs",
-                image:"icons8-react.png"
-            },
-            {
-                label:"ExpressJs",
-                image:"icons8-express.png"
+                label:"Dart",
+                image:"icons8-dart.png"
+            },{
+                label:"Flutter",
+                image:"icons8-flutter.png"
+            },{
+                label:"Firebase",
+                image:"icons8-firebase.png"
             }
         ],
         descriptions: [
