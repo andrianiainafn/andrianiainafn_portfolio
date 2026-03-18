@@ -48,8 +48,10 @@
         "Development of a real-time communication and exchange application."
       ],
       "exp4": [
-        "Design and development of a budget management application for students.",
-        "Development of a financial education application for students."
+        "Java Spring Boot developer intern at the Ministry of Economy and Planning (August 2023 – November 2023).",
+        "Developed a collaboration, task management, and communication application within the ministry.",
+        "Implemented microservices with inter-service communication via Feign, ensuring scalability and modularity.",
+        "Designed robust REST APIs to facilitate data exchange between modules."
       ],
       "exp5": [
         "Development of a web application for administrators and establishments (such as hospitals or clinics) to manage users who book appointments.",
@@ -120,4 +122,3 @@
     "text": "Building scalable solutions with precision, innovation, and technical excellence"
   }
 }
-

@@ -26,8 +26,8 @@ export const experiences:IExperience[]=[
     }, {
         tech: [
             {
-                label:"Spring boot",
-                image:"icons8-spring-boot.png"
+                label:"NodeJs",
+                image:"icons8-nodejs.png"
             },{
                 label:"React Native",
                 image:"icons8-react.png"
@@ -48,16 +48,16 @@ export const experiences:IExperience[]=[
                 image:"icons8-typescript.png"
             },
             {
-                label:"Java",
-                image:"icons8-java.png"
+                label:"NodeJs",
+                image:"icons8-nodejs.png"
             },
             {
                 label:"ReactJs",
                 image:"icons8-react.png"
             },
             {
-                label:"Spring boot",
-                image:"icons8-spring-boot.png"
+                label:"ExpressJs",
+                image:"icons8-express.png"
             }
         ],
         descriptions: [
@@ -68,27 +68,31 @@ export const experiences:IExperience[]=[
     {
         tech: [
             {
-                label:"Dart",
-                image:"icons8-dart.png"
+                label:"Java",
+                image:"icons8-java.png"
             },{
-                label:"Flutter",
-                image:"icons8-flutter.png"
+                label:"Spring Boot",
+                image:"icons8-spring-boot.png"
             },{
-                label:"Firebase",
-                image:"icons8-firebase.png"
+                label:"Feign",
+                image:"feign.png"
+            },{
+                label:"PostgreSQL",
+                image:"icons8-postgres.png"
             },
         ],
         descriptions: [
-            "Design and development of a budget management application for students.",
-            "Development of a financial education application for students."
+            "Developed a collaboration, task management, and communication application within the ministry.",
+            "Implemented microservices with inter-service communication via Feign, ensuring scalability and modularity.",
+            "Designed robust REST APIs to facilitate data exchange between modules."
         ]
 
     },
     {
         tech: [
             {
-                label:"Spring boot",
-                image:"icons8-spring-boot.png"
+                label:"NodeJs",
+                image:"icons8-nodejs.png"
             },{
                 label:"React Native",
                 image:"icons8-react.png"

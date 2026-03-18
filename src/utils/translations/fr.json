@@ -48,8 +48,10 @@
         "Développement d'une application de communication et d'échange en temps réel."
       ],
       "exp4": [
-        "Conception et développement d'une application de gestion de budget pour étudiants.",
-        "Développement d'une application d'éducation financière pour étudiants."
+        "Stagiaire Développeur Java Spring Boot au Ministère de l’Économie et du Plan (Août 2023 – Novembre 2023).",
+        "Développement d'une application de collaboration, de gestion de tâches et de communication au sein du ministère.",
+        "Implémentation de microservices avec communication inter-services via Feign, garantissant scalabilité et modularité.",
+        "Conception d'API REST robustes pour faciliter l'échange de données entre les modules."
       ],
       "exp5": [
         "Développement d'une application web pour les administrateurs et établissements (tels que hôpitaux ou cliniques) pour gérer les utilisateurs qui réservent des rendez-vous.",
@@ -120,4 +122,3 @@
     "text": "Création de solutions évolutives avec précision, innovation et excellence technique"
   }
 }
-

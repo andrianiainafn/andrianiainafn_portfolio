@@ -16,8 +16,12 @@ export const projects:IProject[] = [
                 label:"NextJs"
             },
             {
-                image:"icons8-spring-boot.png",
-                label:"Spring boot"
+                image:"icons8-nodejs.png",
+                label:"NodeJs"
+            },
+            {
+                image:"icons8-express.png",
+                label:"ExpressJs"
             },
             {
                 image:"icons8-postgresql.png",
